@@ -133,6 +133,7 @@ error = np.linalg.norm(data - decoded_data)
 print(f"Reconstruction Error: {error}")
 
 ```
+ Please note that if the compression ratio is set too high, the number of cluster centers will be less than or equal to 0, and the compression process cannot proceed normally.
 
 ## Project Structure
 
