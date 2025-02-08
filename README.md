@@ -39,12 +39,12 @@ Our primary contribution is the **QET_Vanilla** and **QET** method, which are de
 
 ## Algorithms
 
-### QET_Vanilla ( Basic Version of Quantum Entanglement Trees )
+### QET_Vanilla ( Basic Version of QET )
 
 **QET_Vanilla** introduces element replacement to traditional product quantization, improving the efficiency of encoding and decoding high-dimensional data.
 
 
-### QET ( Advanced Version of Quantum Entanglement Trees )
+### QET ( Advanced Version of QET )
 
 **QET** builds on QET_Vanilla by incorporating Residual Quantization Optimization (RQO) and Codebook Quantization Optimization (CQO), achieving significantly improved accuracy with an acceptable computational cost.
 
