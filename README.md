@@ -106,7 +106,7 @@ import numpy as np
 from qet import QET
 
 # compression ratio
-cr = 2
+cr = 4
 
 # Generate random data
 data = np.random.random(size=(1000,128)).astype(np.float32)  # 1000 samples, each with 128 dimensions
@@ -115,7 +115,7 @@ data = np.random.random(size=(1000,128)).astype(np.float32)  # 1000 samples, eac
 # Initialize the QET model with the desired parameters
 qet = QET(
     M = 16,                 # Number of subspaces for dividing the data
-    MemorySize = 1000*128*4//cr,      # Target memory usage after compression in bytes
+    MemorySize = 1000*128*4//cr      # Target memory usage after compression in bytes
 )
 
 # Train the QET model on the data
@@ -133,7 +133,9 @@ error = np.linalg.norm(data - decoded_data)
 print(f"Reconstruction Error: {error}")
 
 ```
- Please note that if the compression ratio is set too high, the number of cluster centers will be less than or equal to 0, and the compression process cannot proceed normally.
+Please note that if the compression ratio is set too high, the number of cluster centers will be less than or equal to 0, and the compression process cannot proceed normally.
+
+
 
 ## Project Structure
 
