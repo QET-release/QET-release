@@ -1,4 +1,4 @@
-# QET: Optimizing Quantized Matrix Quantization Via Element Replacement And Residual Clustering (KDD 2025 Under Review)
+# QET: Optimizing Quantized Matrix Quantization Via Element Replacement And Residual Clustering (ACL Rolling Review - February 2025)
 
 ## Introduction
 
